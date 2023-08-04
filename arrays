@@ -1,0 +1,93 @@
+// // // const names = [["John", "Abba", "Islam", "Aliyu"], "Paul", "George", "Ringo"];
+
+// // // // const classes = [
+// // // // 	["John", "Abba", "Islam", ["Aliyu", "Umar"]],
+// // // // 	["Paul", "George", "Ringo"],
+// // // // ];
+
+// // // // console.log(classes[0][3][1]);
+
+// // // function getName(
+// // // 	phoneNumber,
+// // // 	dateofbirth,
+// // // 	age,
+// // // 	stateoforigin,
+// // // 	nationality,
+// // // 	IDno
+// // // ) {
+// // // 	// check database for name associated with this number
+// // // 	return "John";
+// // // }
+
+// // // function getName2(parameters) {
+// // // 	// check database for name associated with this number
+// // // 	parameters.phoneNumber;
+// // // 	parameters.dateofbirth;
+// // // 	parameters.age;
+// // // 	parameters.stateoforigin;
+// // // 	return "John";
+// // // }
+
+// // const params = {
+// // 	phoneNumber,
+// // 	dateofbirth,
+// // 	age,
+// // 	stateoforigin,
+// // 	nationality,
+// // 	IDno,
+// // };
+
+// // // getName2(params);
+
+// // function sumOfArray(arr) {
+// // 	let sum = 0;
+// // 	for (let i = 0; i < arr.length; i++) {
+// // 		sum += arr[i];
+// // 	}
+// // 	return sum;
+// // }
+
+// // function findAverage(arr) {
+// // 	let sum = sumOfArray(arr);
+// // 	return sum / arr.length;
+// // }
+
+// // function findMax(arr) {
+// // 	let max = arr[0];
+// // 	for (let i = 1; i < arr.length; i++) {
+// // 		if (max > arr[i]) {
+// // 			max = arr[i];
+// // 		}
+// // 	}
+// // 	return max;
+// // }
+
+// // function findMin(arr) {
+// // 	let min = arr[0];
+// // 	for (let i = 1; i < arr.length; i++) {
+// // 		if (min < arr[i]) {
+// // 			min = arr[i];
+// // 		}
+// // 	}
+// // 	return min;
+// // }
+
+// // function findRange(arr) {
+// // 	let min = findMin(arr);
+// // 	let max = findMax(arr);
+// // 	return max - min;
+// // }
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// for (let i in arr) {
+// 	console.log(i + 1);
+// }
+
+// for (let i = 0; i < arr.slice(0, 5).length; i += 2) {
+// 	console.log(i + 1);
+// }
+
+// arr.slice(0, 5).map((item) => {
+// 	console.log(item);
+// });
